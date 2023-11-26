@@ -1,7 +1,6 @@
 // circulo.h
 #pragma once
 #include "figura.h"
-//#include <cmath>
 
 using namespace std;
 
