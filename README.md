@@ -4,7 +4,7 @@ Christian Giraudo
 
 christian.giraudo@estudiantxs.uacm.edu.mx
 
-Ejemplos y ejercicios realizados para el curso de Introducción a la Programación.
+Tarea 8. Introducción a la Programación.
 
 (Distribución: Linux Mint 21.2, Editor: Neovim 0.9.4)
 

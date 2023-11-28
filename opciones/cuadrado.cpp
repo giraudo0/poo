@@ -1,5 +1,5 @@
 // opcion_cuadrado.cpp
-#include "cuadrado.h"
+#include "../cabeceras/cuadrado.h"
 #include <iostream>
 
 using namespace std;

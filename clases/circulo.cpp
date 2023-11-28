@@ -1,9 +1,9 @@
 // circulo.cpp
-#include "circulo.h"
+#include "../cabeceras/circulo.h"
 
 circulo::circulo() : figura("circulo")
 {
-  radio = 1.0;
+  radio = 0.0;
 }
 
 circulo::circulo(double r) : figura("circulo")

@@ -1,5 +1,5 @@
 // rectangulo.cpp
-#include "rectangulo.h"
+#include "../cabeceras/rectangulo.h"
 
 // 'rectangulo' como clase:
 // Constructor:

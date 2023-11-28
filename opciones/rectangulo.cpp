@@ -1,5 +1,5 @@
 // opcion_rectangulo.cpp
-#include "rectangulo.h"
+#include "../cabeceras/rectangulo.h"
 #include <iostream>
 
 using namespace std;

@@ -1,10 +1,10 @@
 // cuadrado.cpp
-#include "cuadrado.h"
+#include "../cabeceras/cuadrado.h"
 
 cuadrado::cuadrado()
 {
   tipo = "cuadrado";
-  lado = 1.0;
+  lado = 0.0;
 }
 
 cuadrado::cuadrado(double l) : figura("cuadrado")

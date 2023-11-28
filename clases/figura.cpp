@@ -1,5 +1,5 @@
 // figura.cpp
-#include "figura.h"
+#include "../cabeceras/figura.h"
 
 figura::figura()
 {

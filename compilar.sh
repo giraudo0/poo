@@ -3,13 +3,13 @@
 clear
 echo "Compilando..."
 g++ main.cpp \
-  figura.cpp \
-  circulo.cpp \
-  cuadrado.cpp \
-  rectangulo.cpp \
-  opcion_cuadrado.cpp \
-  opcion_circulo.cpp \
-  opcion_rectangulo.cpp \
+  clases/figura.cpp \
+  clases/circulo.cpp \
+  clases/cuadrado.cpp \
+  clases/rectangulo.cpp \
+  opciones/cuadrado.cpp \
+  opciones/circulo.cpp \
+  opciones/rectangulo.cpp \
   -o poo
 echo "Ejecutando..."
 echo ""

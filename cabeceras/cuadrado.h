@@ -1,6 +1,5 @@
 // cuadrado.h
 #pragma once
-
 #include "figura.h"
 
 using namespace std;

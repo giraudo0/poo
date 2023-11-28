@@ -1,5 +1,5 @@
 // main.cpp
-#include "opciones.h"
+#include "cabeceras/opciones.h"
 #include <iostream>
 
 using namespace std;

@@ -1,5 +1,5 @@
 // opcion_circulo.cpp
-#include "circulo.h"
+#include "../cabeceras/circulo.h"
 #include <iostream>
 
 using namespace std;
