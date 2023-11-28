@@ -6,25 +6,43 @@ using namespace std;
 
 void opcion_cuadrado(void)
 {
-  cout << endl << "Cuadrados" << endl;
-  cout << "Lado cuadrado 1 = ";
-  double l;
-  cin >> l;
-  cuadrado cuadrado_1(l);
-  cuadrado_1.set_tipo("cuadrado azul");
-  cout << "Lado cuadrado 2 = ";
-  cin >> l;
-  cuadrado cuadrado_2(l, "cuadrado rojo");
-  
-  if(cuadrado_1.area() >= cuadrado_2.area())
+  // Cuadrado alfa:
+  cuadrado cuadrado_alfa(5, "cuadrado alfa");
+  cout << "El área del " << cuadrado_alfa.get_tipo() << " es de ";
+  cout << cuadrado_alfa.area() << " unidades cuadradas." << endl;
+  cout << "Pero su lado se incrementa en una unidad," << endl;
+  cuadrado_alfa.set_lado(cuadrado_alfa.get_lado() + 1);
+  cout << "por lo que su área aumenta a " << cuadrado_alfa.area();
+  cout << " unidades cuadradas." << endl << endl;
+
+  // Comparación de perímetros:
+  cuadrado cuadrado_beta;
+  cuadrado_beta.set_tipo("cuadrado beta");
+  cout << "Entre el lado del " << cuadrado_beta.get_tipo() << ":" << endl;
+  double auxiliar;
+  cin >> auxiliar;
+  cuadrado_beta.set_lado(auxiliar);
+  cout << "Entonces su perímetro es de " << cuadrado_beta.perimetro();
+  cout << " unidades." << endl;
+
+  cout << "Mientras que el perímetro del " << endl;
+  cuadrado cuadrado_gamma(10, "cuadrado_gamma");
+  cout << cuadrado_gamma.get_tipo() << " es de ";
+  cout << cuadrado_gamma.perimetro() << " unidades." << endl;
+
+  cout << "Por lo que ";
+  if(cuadrado_beta.perimetro() == cuadrado_gamma.perimetro())
   {
-    cout << "La figura " << cuadrado_1.get_tipo();
-    cout << " tiene un área mayor o igual que la figura ";
-    cout << cuadrado_2.get_tipo() << "." << endl;
+    cout << "ambos cuadrados son del mismo tamaño." << endl;
+  }
+  else if(cuadrado_beta.perimetro() < cuadrado_gamma.perimetro())
+  {
+    cout << "el " << cuadrado_beta.get_tipo() << " es menor que el ";
+    cout << cuadrado_gamma.get_tipo() << "." << endl;
   }
   else
   {
-    cout << "La figura " << cuadrado_2.get_tipo() << " tiene un área mayor";
-    cout << " que la figura " << cuadrado_1.get_tipo() << "." << endl;
+    cout << "el " << cuadrado_beta.get_tipo() << " es mayor que el ";
+    cout << cuadrado_gamma.get_tipo() << "." << endl;
   }
 }
